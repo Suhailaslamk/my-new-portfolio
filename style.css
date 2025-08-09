@@ -1,0 +1,502 @@
+html{
+      scroll-behavior: smooth;
+}
+body{
+    margin:0px;
+    background-color: black !important;
+    
+    overflow-x: hidden;
+}
+
+.top-bar{
+    width:100%;
+    height:80px;
+    /* background:linear-gradient(black,grey); */
+    background: black;
+    display: flex;
+    border-bottom: 1px solid rgb(111, 109, 109);
+    position: fixed;
+    z-index:10;
+}
+.logo-part{
+    width:50%;
+    height: 80px;
+    display: flex;
+    
+    
+}
+.after-logo{
+    width:50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#naam{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: silver;
+    font-family: Copperplate;
+
+}
+.after-logo a{
+    text-decoration: none;
+    color:white;
+    font-family: Georgia;
+}
+.personal-details{
+    width:100%;
+    height:25rem;
+    display: flex;
+    
+    
+}
+.about-details{
+    width:50%;
+    height: 25rem;
+    background-color:  black;
+}.photo-details{
+    width:50%;
+    height: 25rem;
+    background-color: rgb(13, 0, 0);
+}
+#profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 160px; 
+    margin-top: 270px;
+    margin-left: 100px;
+    /* border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px; */
+}
+#miqqu{
+   font-size: 3rem;
+   text-shadow: 4px 4px 4px rgb(10, 10, 10);
+}
+.inside-about{
+    width: 80%;
+    height: 80%;
+    background: rgb(32, 32, 32);
+    margin-top: 7rem;
+    border-top-left-radius: 30rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    color: silver;
+    border-bottom-right-radius: 30rem;
+    box-shadow: 1px 1px 10px rgb(114, 113, 113) ; 
+    
+}
+#heyy{
+    margin-top: 15rem;
+    display:flex;
+}
+.qualification-details{
+    width: 90%;
+    height: 41rem;
+    background: black;
+    color: silver;
+    
+    
+
+}
+#fullstack-text{
+
+    text-shadow: 3px 3px 4px black ;
+}
+.after-logo a:hover{
+    color: blue;
+}
+.bsc{
+    margin-top: 30rem;
+    margin-left: 5rem;
+    text-align: center;
+    font-family: Georgia;
+}
+.qual-box{
+    width: 50%;
+    height:40rem;
+    background: black;
+    padding-top: 5rem;
+    margin-left: 6rem;
+    
+}
+#skills-div{
+    width: 50%;
+    height:10rem;
+    background: black;
+    margin-left: 24rem;
+    color:silver;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+#skills{
+     margin-top: 5rem;
+    
+    text-align: center;
+    font-family: Georgia;
+    color: silver;
+    margin-bottom: 6rem;
+
+}
+.logo{
+    width: 3rem;
+    height: 3rem;
+    /* margin-left: 30rem;
+    margin-bottom: 8rem; */
+    
+}
+.logo1{
+    border: 1px solid black;
+    width: 5rem;
+    height: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    background: black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px red ;
+
+    
+
+}
+.logo2{
+    border: 1px solid black;
+    width: 5rem;
+    height: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    background: black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px blue ;
+
+
+
+
+}
+.logo3{
+    border: 1px solid black;
+    width: 5rem;
+    height: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    background: black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px green ;
+}
+#contact-details{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    font-family: Georgia;
+    color: silver;
+
+}
+.icon-des1{
+    width: 20rem;
+    height: 20rem;
+    background: black;
+    /* display: grid; */
+    margin-left: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 100px green ;
+    
+}
+
+
+.icon-des2{
+    width: 20rem;
+    height: 20rem;
+    background: black;
+    /* display: grid; */
+    margin-left: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 100px green ;
+    /* opacity:0.5px; */
+}
+.icon-des3{
+    width: 20rem;
+    height: 20rem;
+    background: black;
+    text-align: center;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 100px green ;
+}
+.icons-description{
+    color: rgb(165, 163, 163);
+    display:flex;
+    
+}
+
+
+.form-floating input{
+    background: silver;
+    width:30rem;
+    height:1rem;
+    
+    
+
+
+}
+.btn-primary{
+    position: absolute;
+    left:45rem;
+    
+    
+
+   
+}
+.form-floating{
+    margin-left: 25rem;
+}
+.linkedin{
+    width:1.5rem;
+    height:1.5rem;
+    margin-left: 2rem;
+}
+#span-id{
+    
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px green;
+    padding: 2px;
+    margin-left: -4rem;
+}
+/* .footer-div{
+    width:100%;
+    height:20rem;
+    background: linear-gradient(black,rgb(92, 25, 25));
+    border-top: 1px solid silver;
+    margin-top: 20rem;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+     */
+    /* padding-top: 2rem;
+    color: silver;
+
+} */ 
+.container {
+    background: black;
+}
+.form-floating textarea{
+    background: silver;
+    width:35rem;
+    height:6rem;
+}
+/* .footer-div{
+    color: silver;
+    text-align: center;
+} */
+    
+
+/* .icon-des1:hover{
+    /* width: 21rem;
+    height: 21rem;
+    background: black; */
+    /* transform:rotatey(360deg);
+    transition: 3s; */
+
+
+.icon-des2.scrolled{
+    transform:rotatex(360deg);
+    transition: 3s;
+} 
+.thanks{
+    color: silver;
+}
+.linkedin1{
+    width:1.5rem;
+    height:1.5rem;
+    margin-left: 18rem;
+
+}
+.feelfree{
+    border-top: 1px solid silver;
+    background: black
+}
+#peeru{
+    
+    color: rgb(32, 4, 4);
+    font-family: Georgia;
+    font-size: 1.5rem;
+    width: 30rem;
+    height:3rem;
+    margin-left: -13rem;
+    border-radius:10px;
+    padding: 1rem;
+    background: silver;
+}
+#kuripp1{
+
+    color: rgb(26, 3, 3);
+    font-family: Georgia;
+    font-size: 1.5rem;
+    width: 30rem;
+    height:3rem;
+    margin-left: -13rem;
+    border-radius:10px;
+    padding: 1rem;
+    background: silver;
+
+}
+#kuripp{
+    margin-left: -13rem;
+    color: rgb(45, 4, 4);
+    font-family: Georgia;
+    font-size: 1.5rem;
+    width: 30rem;
+    height:10rem;
+    border-radius:10px;
+    padding: 1rem;
+    background: silver;
+}
+.switch{
+    position: relative;
+    /* display: inline-block; */
+    width: 7.rem;
+    height: 2rem;
+    margin-left: -2.5rem;
+    border-radius:10px;
+    background: blue;
+    display: flex;
+}          
+
+
+
+
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+
+/* Large tablets and small laptops */
+@media (max-width: 1200px) {
+    #skills-div {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .qual-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    .personal-details {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .photo-details, .about-details {
+        width: 100%;
+        height: auto;
+    }
+    #profile-pic {
+        margin: 2rem auto;
+    }
+    .inside-about {
+        margin-top: 2rem;
+        border-radius: 2rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    #heyy {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    .qualification-details {
+        height: auto;
+    }
+    .qual-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #skills-div {
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .icons-description {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icon-des1, .icon-des2, .icon-des3 {
+        margin: 1rem;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        align-items: center;
+    }
+    .logo-part, .after-logo {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .after-logo {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    #naam {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+    .inside-about {
+        padding: 1rem;
+    }
+    .icon-des1, .icon-des2, .icon-des3 {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+    #peeru, #kuripp1, #kuripp {
+        width: 90%;
+        margin-left: 0;
+    }
+    .switch {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .linkedin1 {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    #miqqu {
+        font-size: 2rem;
+    }
+    #skills {
+        margin-bottom: 3rem;
+    }
+    .logo1, .logo2, .logo3 {
+        width: 4rem;
+        height: 4rem;
+    }
+}
